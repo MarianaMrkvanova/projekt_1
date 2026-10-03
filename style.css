@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(244, 218, 242);
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    background-color: white;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin: 100px auto;
+    padding: 5px 30px;
+}
+
+.fotky {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fotky img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.autor-fotka {
+    text-align: right;
+}
+
+.autor-fotka img {
+    width: 250px;
+}
+
+.autor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.autor-text {
+    width: 65%;
+}
+
+.autor-fotka {
+    width: 30%;
+    text-align: right;
+}
+
+.autor-fotka img {
+    width: 250px;
+}
+
+.rozbory {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 40px;
+}
+
+.rozbory a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+}
+
+.rozbory img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.rozbor {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.rozbor > h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+
+.info img {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.box {
+    background-color: white;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.postavy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.postavy div {
+    background-color: rgb(244, 218, 242);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.uvod {
+    background-color: white;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    text-align: center;
+}
+
+.uvod h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.uvod p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.uvod-tlacitka {
+    margin-top: 35px;
+}
+
+.uvod-tlacitka a {
+    display: inline-block;
+    background-color: rgb(244, 218, 242);
+    color: black;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.uvod-tlacitka a:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+}
